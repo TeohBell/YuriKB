@@ -1,5 +1,5 @@
-config SHIELD_YURI_LEFT
-    def_bool $(shields_list_contains,yuri_left)
+config SHIELD_YURI_KB_LEFT
+    def_bool $(shields_list_contains,yuri_KB_left)
 
 config SHIELD_YURI_RIGHT
-    def_bool $(shields_list_contains,yuri_right)
+    def_bool $(shields_list_contains,yuri_KB_right)

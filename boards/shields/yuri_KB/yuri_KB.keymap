@@ -22,7 +22,7 @@
                                                                                 &kp LEFT  &kp DOWN  &kp RIGHT &kp UP    &none
                &kp LGUI &kp LCTRL &kp RET  &kp LSHFT &none                                &none   &kp SPACE &kp BSPC  &kp LALT
             >;
-            sensor-bindings = < &inc_dec_kp PG_UP PG_DN
+            sensor-bindings = < &inc_dec_kp PG_DN PG_UP
             >;
         };
     };

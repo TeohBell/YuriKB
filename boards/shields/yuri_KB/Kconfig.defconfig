@@ -1,40 +1,16 @@
-if BOARD_YURI_KB_LEFT
+if SHIELD_YURI_KB_L
 
 config ZMK_KEYBOARD_NAME
-    default "Yuri Keyboard"
+    default "yuri_KB"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-endif # BOARD_YURI_KB_LEFT
+endif
 
-
-if BOARD_YURI_KB_LEFT || BOARD_YURI_KB_RIGHT
-
-config BOARD
-    default "yuri_kb"
+if SHIELD_YURI_L || SHIELD_YURI_KB_R
 
 config ZMK_SPLIT
     default y
 
-config BT_CTLR
-    default BT
-
-# USB
-
-#if SHIELD_YURI_KB_L
-
-#config ZMK_KEYBOARD_NAME
-   # default "yuri_KB"
-
-#config ZMK_SPLIT_ROLE_CENTRAL
-    #default y
-
-#endif
-
-#if SHIELD_YURI_L || SHIELD_YURI_KB_R
-
-#config ZMK_SPLIT
-   # default y
-
-#endif
+endif

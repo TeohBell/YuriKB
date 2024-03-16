@@ -3,7 +3,7 @@ id: yuri_KB
 name: Yuri KB
 type: shield
 url: https://github.com/TeohBell/YuriKB
-requires: [xiao]
+requires: seeeduino_xiao_ble
 exposes: [i2c_oled]
 features:
   - keys

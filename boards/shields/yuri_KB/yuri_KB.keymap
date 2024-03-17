@@ -30,7 +30,7 @@
     &trans  &kp AMPS    &kp TILDE   &kp GRAVE	&kp LBRC    &kp RBRC           	&kp N0     	&kp N1     	&kp N2 		&kp N3   	&kp DOT 	&kp BACKSLASH
 
                                                                         		&trans  	&trans  	&trans 	    &trans      &trans
-               	&trans 	&trans 	    &trans  	&to 0 	    &trans                      	&RSHFT   	&trans 	    &trans  	&trans
+            &trans 	    &trans 	    &trans  	&to 0 	    &trans                      	&kp RSHFT   &trans 	    &trans  	&trans
             >;
 
             sensor-bindings = < &inc_dec_kp PG_DN PG_UP

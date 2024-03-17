@@ -1,14 +1,14 @@
-if SHIELD_YURI_KB_L
+if SHIELD_YURI_KB_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "yuri_KB"
+    default "Yuri KB"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_YURI_L || SHIELD_YURI_KB_R
+if SHIELD_YURI_KB_LEFT || SHIELD_YURI_KB_RIGHT
 
 config ZMK_SPLIT
     default y

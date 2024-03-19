@@ -15,7 +15,7 @@
     &kp LGUI   &kp Z    &kp X    &kp C     &kp V     &kp B              &kp N     	&kp M     	&kp COMMA 	&kp DOT   &kp FSLH 	&kp RSHFT 
 
                                                                         &kp LEFT  	&kp DOWN  	&kp RIGHT 	&kp UP    &mo 3
-               &mo 2 	&kp LCTRL &kp RET  &kp LSHFT &mo 3                      	&to 1   	&kp SPACE 	&kp BSPC  &kp LALT
+               &kp F 	&kp RET  &kp LCTRL &kp LSHFT &mo 3                      	&to 1   	&kp BSPC    &kp SPACE &kp LALT
             >;
 
             sensor-bindings = < &inc_dec_kp PG_DN PG_UP

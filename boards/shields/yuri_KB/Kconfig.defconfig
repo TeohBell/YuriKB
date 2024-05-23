@@ -17,5 +17,3 @@ endif
 
 config I2C
     default y
-
-endif

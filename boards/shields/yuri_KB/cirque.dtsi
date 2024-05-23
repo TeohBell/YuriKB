@@ -1,3 +1,6 @@
+#include <dt-bindings/zmk/mouse.h>
+#include <behaviors/mouse_keys.dtsi>
+
 &i2c0_default {
     group1 {
       bias-pull-up;

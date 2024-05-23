@@ -51,28 +51,3 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)       RC(2,6) RC(2,7) RC(2,8) RC
         triggers-per-rotation = <6>;
     };
 };
-
-&xiao_i2c {
-    status = "disabled";                           
-    glidepoint: glidepoint@2a {
-        compatible = "cirque,pinnacle";
-        reg = <0x2a>;
-        status = "okay";
-        dr-gpios = <&gpio1 10 (GPIO_ACTIVE_HIGH)>;
-
-        sensitivity = "4x";
-        // sleep;
-        no-taps;
-    };
-};
-
-/ {
-  glidepoint_listener {
-    compatible = "zmk,input-listener";
-    device = <&glidepoint>;
-
-    xy-swap;
-    y-invert;
-    x-invert;
-  };
-};

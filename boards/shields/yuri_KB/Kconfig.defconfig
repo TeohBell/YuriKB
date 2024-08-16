@@ -12,3 +12,5 @@ if SHIELD_YURI_KB_LEFT || SHIELD_YURI_KB_RIGHT
 
 config ZMK_SPLIT
     default y
+
+end if

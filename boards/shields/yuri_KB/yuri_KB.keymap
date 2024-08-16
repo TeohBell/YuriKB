@@ -3,9 +3,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
-#include <dt-bindings/zmk/mouse.h>
-#include "xiao_cirque.dtsi"
-
 / {
         td0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";

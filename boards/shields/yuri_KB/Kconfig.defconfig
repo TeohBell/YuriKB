@@ -1,12 +1,9 @@
-if SHIELD_YURI_KB_RIGHT
+if SHIELD_YURI_KB_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "Yuri KB"
 
 config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-
-config I2C
     default y
 
 endif

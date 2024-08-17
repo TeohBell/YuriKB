@@ -14,10 +14,3 @@
         , <&gpio0 10(GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // col5 in the schematic
         ;
 };
-
-// &xiao_i2c {
-    // status = "okay";
-    // glidepoint: glidepoint@2a {
-        // status = "okay";
-    // };
-// };

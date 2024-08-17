@@ -9,3 +9,5 @@ config ZMK_SPLIT_ROLE_CENTRAL
 endif
 
 if SHIELD_YURI_KB_LEFT || SHIELD_YURI_KB_RIGHT
+
+endif
